@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="TechOnlineCSAC066.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.navigation {
+  overflow: hidden;
+  background-color: #ffd800;
+}
+.navigation{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  width: 8%;
+  height: 459px; 
+   padding: 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+nav ul {
+  list-style-type: armenian;
+  padding: 0;
+}
+article {
+  float: right;
+  padding: 20px;
+  width: 86%;
+  background-color: #f1f1f1;
+  height: 100%; /* only for demonstration, should be removed */
+}
+    footer 
+    { 
+        background-color: #ee5;
+        padding: 10px;
+        text-align: center;
+        color: black;
+        width:100%;
+        position:absolute;
+    }
+    
+
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+<section>
+
+<nav class="navigation">
+    <ul>
+        <a href="Home.aspx">Home</a>
+    </ul>
+  <ul>
+      <a href="CategoryList.aspx">Category</a>
+  </ul>
+  <ul>
+      <a href="Product_list.aspx">Products</a>
+  </ul>
+    <ul>
+      <a href="LogIn.aspx">Logout</a>
+  </ul>
+</nav>
+    
+    </section>
+        <article>
+
+        </article>      
+    </form>
+    <footer>
+           <p>CSAT-CSAC-0066-V2</p>
+       </footer>
+</body>
+</html>

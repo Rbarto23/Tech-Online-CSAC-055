@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tech_Online_CSAC066")]
+[assembly: AssemblyTitle("TechOnlineCSAC066")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Tech_Online_CSAC066")]
+[assembly: AssemblyProduct("TechOnlineCSAC066")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("387b8854-b221-4920-ab38-f956c80018b0")]
+[assembly: Guid("a4657511-9aad-4e0e-a993-750a583a019b")]
 
 // Version information for an assembly consists of the following four values:
 //
